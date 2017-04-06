@@ -1,0 +1,25 @@
+body {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/cone.jpg");
+	background-size: cover;
+	font-family: Helvetica;
+	padding: 150px 200px 200px 200px;
+	color: #fff;
+}
+
+h1, #slogan, #contact {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+a {
+	text-decoration: overline;
+	color: #fff;
+}
+
+#slogan {
+	font-style: italic;
+}
+
+hr {
+	width: 300px ;
+}
