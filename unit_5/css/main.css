@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Vampiro+One');
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:900');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100');
+
+body {
+	font-family: Roboto, Helvetica;
+	line-height: 1.8em;
+	word-spacing: 0.15em;
+}
+
+header {
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+
+img {
+	display: block;
+  	width: 900px;
+  	height: 100vh;
+  	object-fit: cover;
+  	margin: 0 auto;
+}
+
+.clearfix:after {
+	display: block;
+	content: " ";
+	clear: both;
+
+	height: 0;
+	font-size: 0;
+	visibility; hidden;
+}
+
+p, li, #contact {
+	color: #333333;
+}
+
+h1 {
+	font-size: 3em;
+	font-family: 'Vampiro One', cursive;
+	text-align: center;
+	text-transform: lowercase;
+	color: #FF530D;
+}
+
+nav {
+/*	text-align: center;
+	background-color: #eeeeee;
+*/
+
+/*	Homework styling*/
+    background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+section {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+nav a {
+	color: #333333;
+	display: block;
+	width: 180px;
+	float: left;
+	padding: 10px 0;
+	text-decoration: none;
+}
+
+nav a:hover {
+	background-color: #FF530D;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a {
+	text-decoration: overline;
+	color: #333333;
+}
+
+a:hover {
+	color: #FF530D;
+	text-decoration: underline;
+}
+
+#contact, #slogan {
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-size: 1.7em;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+hr {
+	width: 300px ;
+}
+
+article {
+	width: 720px;
+    background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+.description {
+	margin: 0 auto;
+}
+
+footer {
+	/*background-color: #eeeeee;
+	padding: 20px;*/
+
+	/*Homework styling*/
+	background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#wrapper {
+	width: 1080px;
+	margin-left: auto;
+	margin-right: auto;
+}
