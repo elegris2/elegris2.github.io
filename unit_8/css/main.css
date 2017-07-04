@@ -20,10 +20,6 @@ img {
 	display:none;
 }
 
-.hidden {
-	display: none;
-}
-
 .clearfix:after {
 	display: block;
 	content: " ";
