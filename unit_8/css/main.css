@@ -16,6 +16,10 @@ img {
   	margin: 0 auto;
 }
 
+.hidden {
+	display: none;
+}
+
 .clearfix:after {
 	display: block;
 	content: " ";
@@ -156,21 +160,40 @@ aside a:hover {
 		width: 80%;	
 	}
 
+	#hamburger {
+		display: block;
+		width: 3em;
+	}
+
+	.hidden {
+		display: none;
+	}
+
 	#slogan {
 		display: none;
 	}
 
-	#left, #right {
+	#left, #right, #contact {
 		text-align: center;
 		line-height: 1.5em;
 		width: 80%;
+		font-weight: bolder;
+		text-transform: uppercase;
+		font-size: 1.25em;
 		float: none;
+	}
+
+	#contact {
+		margin: 0 auto;
+		padding: none;
 	}
 
 	nav a {
 		float: none;
 		width: 100%;
 		text-transform: uppercase;
-
+		font-weight: bolder;
+		font-size: 1.25em;
+		padding: .8em 0;
 	}
 }
