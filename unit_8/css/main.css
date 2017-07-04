@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=Vampiro+One');
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:900');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100');
+
+body {
+	font-family: Roboto, Helvetica;
+	line-height: 1.8em;
+	word-spacing: 0.15em;
+	font-size: 16px;
+}
+
+img {
+	display: block;
+  	width: 100%;
+  	object-fit: cover;
+  	margin: 0 auto;
+}
+
+.clearfix:after {
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+	visibility; hidden;
+}
+
+p, li, #contact {
+	color: #333333;
+}
+
+h1 {
+	font-size: 3em;
+	font-family: 'Vampiro One', cursive;
+	text-align: center;
+	text-transform: lowercase;
+	color: #FF530D;
+}
+
+nav {
+	text-align: center;
+	background-color: #eeeeee;
+}
+
+
+#id {
+	width: 100%
+}
+
+nav a {
+	color: #333333;
+	display: block;
+	width: 16.6%;
+	float: left;
+	padding: .6em 0;
+	text-decoration: none;
+}
+
+nav a:hover {
+	background-color: #FF530D;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a {
+	text-decoration: overline;
+	color: #333333;
+}
+
+a:hover {
+	color: #FF530D;
+	text-decoration: underline;
+}
+
+#slogan {
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-size: 1.7em;
+	text-align: center;
+	padding-top: 0;
+	text-transform: uppercase;
+}
+
+#contact {
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-size: 1.7em;
+	text-align: right;
+	padding-top: 0;
+	text-transform: uppercase;
+}
+
+hr {
+	width: 24%;
+}
+
+article {
+	width: 57%;
+}
+
+.description {
+	margin: 0 auto;
+}
+
+footer {
+	background-color: #eeeeee;
+	padding: 1.8em;
+}
+
+aside a {
+	text-decoration: none;	
+}
+
+aside a:hover {
+	text-decoration: none;
+	font-weight: bold;
+} 
+
+#wrapper {
+	width: 86%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#two_column {
+}
+
+#left {
+    float: left;
+    width: 30%;
+}
+
+#right {
+    float: right;   
+    width: 61%;
+}
+
+@media only screen and (max-width: 800px) {
+	body {
+		font-size: 14px;
+	}
+
+	h1 {
+		line-height: 1em;
+	}
+
+	article {
+		width: 80%;	
+	}
+}
+
+@media only screen and (max-width: 401px) {
+	body {
+		font-size: 12px;
+	}
+
+	article {
+		width: 80%;	
+	}
+
+	#slogan {
+		display: none;
+	}
+
+	#left, #right {
+		text-align: center;
+		line-height: 1.5em;
+		width: 80%;
+		float: none;
+	}
+
+	nav a {
+		float: none;
+		width: 100%;
+		text-transform: uppercase;
+
+	}
+}
