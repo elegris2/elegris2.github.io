@@ -16,6 +16,10 @@ img {
   	margin: 0 auto;
 }
 
+#hamburger {
+	display:none;
+}
+
 .hidden {
 	display: none;
 }
